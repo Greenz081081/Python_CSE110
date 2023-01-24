@@ -1,0 +1,38 @@
+# Week 03 assignment continuation
+# Author: Emediong Edet
+
+print("Area of a square")
+print()
+square_length = float(input('What is the length of a side of the square?'))
+print('_________________________________________________')
+area_1 = square_length ** 2
+print('_________________________________________________')
+print(f'The area of the length is {area_1}')
+print('_________________________________________________')
+print()
+print('Area of a rectangle')
+print()
+print('_________________________________________________')
+rectangle_length = float(input('What is the length of a rectangle?'))
+print('_________________________________________________')
+rectangle_width = float(input('What is the width of the rectangle?'))
+print('_________________________________________________')
+area_2 = rectangle_length * rectangle_width
+print(f'The area of the rectangle is {area_2}')
+print()
+print('_________________________________________________')
+print('Area of a circle')
+print()
+circle_radius = float(input('What is the radius of the circle?'))
+area_3 = 3.1416 * (circle_radius ** 2)
+print(f'The area of the circle is {area_3}')
+print()
+print('Area of a circle using math functions')
+import math
+print('_________________________________________________')
+circle_radius_2 = float(input('What is the area of the circle'))
+area_4 = math.pi * (circle_radius_2 ** 2)
+print('_________________________________________________')
+print(f'The area of the circle using math.pi is {area_4}')
+print()
+value = float(input('What is the value to be used?'))
